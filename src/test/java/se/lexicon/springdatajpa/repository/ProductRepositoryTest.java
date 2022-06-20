@@ -1,10 +1,11 @@
-package se.lexicon.springdatajpa.entity;
+package se.lexicon.springdatajpa.repository;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import se.lexicon.springdatajpa.entity.Product;
 import se.lexicon.springdatajpa.repository.ProductRepository;
 
 import java.math.BigDecimal;

@@ -44,6 +44,11 @@ public class ProductOrder {
         this.customer = customer;
     }
 
+    public ProductOrder(LocalDate orderDate, LocalTime orderTime, AppUser customer) {
+        this.orderDate = orderDate;
+        this.orderTime = orderTime;
+        this.customer = customer;
+    }
 
     public void addOrderItem(OrderItem orderItem) {
         if (orderItems == null) orderItems = new ArrayList<>();
